@@ -1,0 +1,41 @@
+.about-div {
+  display: inline;
+}
+#about-banner {
+  width: 300px;
+  height: 200px;
+  float: left;
+}
+
+#about-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  float: right;
+  margin-top: 70px;
+}
+
+.about-li,
+.about-li-a {
+  font-size: 25px;
+  display: inline;
+  margin: 20px;
+  text-decoration: none;
+}
+.about-li,
+.about-li-a:visited {
+  color: black;
+}
+
+.About {
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutPage {
+  display: flex;
+  flex-direction: column;
+}

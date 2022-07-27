@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+
+.banner {
+  width: 800px;
+  height: 500px;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.NavBar {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.nav-li:hover {
+  color: rgb(116, 116, 116);
+}
+
+.li-a:visited {
+  color: black;
+}
+
+.Link {
+  text-decoration: none;
+}
+
+.li-a {
+  text-decoration: none;
+}
+.nav-li {
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 20px;
+  text-decoration: none;
+}
