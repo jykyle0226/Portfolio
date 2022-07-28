@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ResumePage from "./pages/ResumePage";
+import { Helmet } from 'react-helmet'
 
 function App() {
   useEffect(() => {
@@ -14,7 +15,9 @@ function App() {
   const Title = 'Min Yong Kim'
   return (
     <div className="App">
-
+      <Helmet>
+        <title>{Title}</title>
+      </Helmet>
       <Route exact path="/">
         <HomePage />
       </Route>
