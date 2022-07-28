@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+
 .ProjectPage {
   display: flex;
   flex-direction: column;
@@ -48,7 +51,11 @@
 }
 
 .project-h1{
-  font-size: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.projectNum{
+  font-size: 25px;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .large-img{
@@ -85,4 +92,5 @@
   left: 50%;
   top: -1rem;
   transform: translate(-50%, -100%);
+  font-family: 'PT Sans Narrow', sans-serif;
 }
