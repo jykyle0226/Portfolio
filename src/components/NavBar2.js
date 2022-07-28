@@ -23,9 +23,17 @@ const Navbar2 = () => {
           <Link className="Link" to="/projects">
             <li className="about-li">Projects</li>
           </Link>
-          <Link className="Link" to="/Resume">
-            <li className="about-li">Resume</li>
-          </Link>
+          
+          <li className="about-li">
+          <a
+            className="about-li-a"
+            href="https://drive.google.com/file/d/1uQNPtvr-pgzpJA_DsojDEW7eoK9vuK5N/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
+        </li>
 
           <li className="about-li">
             <a
