@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div>
           <h4 className="intro">
-          As a recent graduate at General Assembly, I’m equipped with self-teaching ability and flexibility to an individual work setting and collaboration.  
+          As a recent graduate from General Assembly, I’m equipped with self-teaching ability and flexibility to an individual work setting and collaboration.  
           </h4>
         </div>
         <div>
