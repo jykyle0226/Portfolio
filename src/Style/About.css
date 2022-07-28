@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Frank+Ruhl+Libre:wght@500&display=swap');
+
 .about-div {
   display: inline;
 }
@@ -38,4 +40,41 @@
 .AboutPage {
   display: flex;
   flex-direction: column;
+}
+
+.hello-span{
+  font-family: 'Courgette', cursive;
+
+  font-size: 100px;
+}
+.name-span{
+  font-family: 'Courgette', cursive;
+}
+
+.skill-icon{
+  width: 80px;
+  height: 80px;
+}
+
+.About-div{
+  margin: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-div{
+  width: 500px;
+}
+
+.intro, .passion{
+  font-size: 22px;
+}
+
+.name{
+  font-size: 50px;
+}
+
+.name-div, .intro-div{
+  padding: 20px;
 }

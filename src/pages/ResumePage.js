@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../Style/Navbar.css";
 import Navbar2 from "../components/NavBar2";
-import "../Style/Project.css";
+import "../Style/Resume.css";
+import Resume from '../components/Resume'
 
 const ResumePage = (props) => {
   return (
@@ -10,7 +11,9 @@ const ResumePage = (props) => {
       <div>
         <Navbar2></Navbar2>
       </div>
-      <div></div>
+      <div>
+        <Resume></Resume>
+      </div>
     </div>
   );
 };

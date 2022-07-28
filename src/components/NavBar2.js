@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Spring } from 'react-spring'
+
 
 const Navbar2 = () => {
   return (
@@ -23,7 +25,7 @@ const Navbar2 = () => {
             <li className="about-li">Projects</li>
           </Link>
           <Link className="Link" to="/Resume">
-            <li className="nav-li">Resume</li>
+            <li className="about-li">Resume</li>
           </Link>
 
           <li className="about-li">
