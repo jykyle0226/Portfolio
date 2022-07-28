@@ -48,7 +48,7 @@ const About = () => {
             alt=""
             className="email"
           ></img>
-          <h4>min.y.kim@gmail.com</h4>
+          <h4>min.y.kim0226@gmail.com</h4>
         </div>
       </div>
     </div>
