@@ -13,7 +13,6 @@
 .chess-img {
   width: 150px;
   height: 220px;
-  margin: 40px;
   margin-top: 250px;
   filter: drop-shadow(6px 4px 1px #575757);
 }
@@ -30,7 +29,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 150px;
+  margin: 90px;
 }
 
 .large {
