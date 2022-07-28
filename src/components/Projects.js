@@ -111,7 +111,7 @@ const Projects = () => {
         <div className="project-3">
           <a
             className="chess-link"
-            href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+            href="https://buck-it.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -160,7 +160,7 @@ const Projects = () => {
         <div className="project-4">
           <a
             className="chess-link"
-            href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+            href="https://project2-minyong-kim.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -210,7 +210,7 @@ const Projects = () => {
         <div className="project-5">
           <a
             className="chess-link"
-            href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+            href="https://main--astonishing-dieffenbachia-49841b.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
