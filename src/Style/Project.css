@@ -8,9 +8,9 @@
   height: 200px;
 }
 
-.img{
-  width: 200px;
-  height: 300px;
+.chess-img{
+  width: 150px;
+  height: 220px;
   margin: 40px;
   margin-top: 250px;
   filter: drop-shadow(6px 4px 1px #575757);
@@ -36,21 +36,15 @@
   left: -9999px;
 }
 
-.project-link {
-  text-decoration: none;
-}
-.project-link:visited {
-  color: black;
+.chess-link:hover .large {
+  left: 620px; 
+  top: 210px;
+  border: solid black 1px;
 }
 
-.project-link:hover {
-  color: grey;
-
-}
-.project-link:hover .large{
-  left: 630px;
-  top: 250px;
-  
+.large-image{
+  width: 700px;
+  height: 400px;
 }
 
 .project-h1{
@@ -64,18 +58,31 @@
   box-shadow: 1px 1px 3px 3px rgba(127, 127, 127, 0.15);;
 }
 
-.projectNum{
-  text-decoration: none;
-}
 
 .project-1, .project-2, .project-3, .project-4, .project-5{
-
   margin: 5px;
-
+  width: 300px;
 }
 
 .github, .live{
   margin: 10px;
   width: 50px;
   height: 50px;
+}
+
+[data-msg] {
+  position: relative;
+}
+
+[data-msg]:focus::before, [data-msg]:hover::before {
+  content: attr(data-msg);
+  position: absolute;
+  width: 100%;
+  min-width: 200px;
+  padding: 1rem;
+  background-color: rgb(174, 174, 174);
+  opacity: 0.8;
+  left: 50%;
+  top: -1rem;
+  transform: translate(-50%, -100%);
 }

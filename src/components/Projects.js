@@ -11,20 +11,29 @@ const Projects = () => {
       </div>
       <div className="project-div">
         <div className="project-1">
-          <img
-            className="img"
-            src="https://i.imgur.com/pxHF1mA.png"
-            alt=""
-          ></img>
-          <span className="large">
+          <a
+            className="chess-link"
+            href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
-              src="https://i.imgur.com/Td2GZ3f.png"
+              className="chess-img"
+              src="https://i.imgur.com/pxHF1mA.png"
               alt=""
-              className="large-img"
             ></img>
-          </span>
-          <h2 className="projectNum">Project 1</h2>
-          <h4 className="projectName">GCCK Audio Engineer Website</h4>
+            <span class="large">
+              <img
+                src="https://i.imgur.com/Td2GZ3f.png"
+                class="large-image"
+                alt=""
+              ></img>
+            </span>
+          </a>
+
+          <h2 className="projectNum" data-msg="Project 1">
+            GCCK Audio Engineer Website
+          </h2>
           <div>
             <a
               href="https://github.com/jykyle0226/Audio-Engineer-Guide-Website-FrontEnd"
@@ -51,20 +60,29 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-2">
-          <img
-            className="img"
-            src="https://i.imgur.com/3uFEhOT.png"
-            alt=""
-          ></img>
-          <span className="large">
+          <a
+            className="chess-link"
+            href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
-              src="https://i.imgur.com/sgzue30.png"
+              className="chess-img"
+              src="https://i.imgur.com/3uFEhOT.png"
               alt=""
-              className="large-img"
             ></img>
-          </span>
-          <h2 className="projectNum">Project 2</h2>
-          <h4 className="projectName">CaffeNova</h4>
+            <span className="large">
+              <img
+                src="https://i.imgur.com/sgzue30.png"
+                alt=""
+                className="large-img"
+              ></img>
+            </span>
+          </a>
+
+          <h2 className="projectNum" data-msg="Project 2">
+            CaffeNova
+          </h2>
           <div>
             <a
               href="https://github.com/jykyle0226/CaffeNova"
@@ -91,20 +109,29 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-3">
-          <img
-            className="img"
-            src="https://i.imgur.com/TVJKbcL.png"
-            alt=""
-          ></img>
-          <span className="large">
+          <a
+            className="chess-link"
+            href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
-              src="https://i.imgur.com/84IDtHM.png"
+              className="chess-img"
+              src="https://i.imgur.com/TVJKbcL.png"
               alt=""
-              className="large-img"
             ></img>
-          </span>
-          <h2 className="projectNum">Project 3</h2>
-          <h4 className="projectName">BuckT</h4>
+            <span className="large">
+              <img
+                src="https://i.imgur.com/84IDtHM.png"
+                alt=""
+                className="large-img"
+              ></img>
+            </span>
+          </a>
+
+          <h2 className="projectNum" data-msg="Project 3">
+            BuckT
+          </h2>
           <div>
             <a
               href="https://github.com/jykyle0226/buckT-frontend"
@@ -131,20 +158,29 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-4">
-          <img
-            className="img"
-            src="https://i.imgur.com/xDeem9N.png"
-            alt=""
-          ></img>
-          <span className="large">
+          <a
+            className="chess-link"
+            href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
-              src="https://i.imgur.com/zj0eudJ.png"
+              className="chess-img"
+              src="https://i.imgur.com/xDeem9N.png"
               alt=""
-              className="large-img"
             ></img>
-          </span>
-          <h2 className="projectNum">Project 4</h2>
-          <h4 className="projectName">My Personal Diary and Devo</h4>
+            <span className="large">
+              <img
+                src="https://i.imgur.com/zj0eudJ.png"
+                alt=""
+                className="large-img"
+              ></img>
+            </span>
+          </a>
+
+          <h2 className="projectNum" data-msg="Project 4">
+            My Personal Diary and Devotion
+          </h2>
           <div>
             <a
               href="https://github.com/jykyle0226/My-Personal-Devo-Diary"
@@ -171,21 +207,30 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="project-4">
-          <img
-            className="img"
-            src="https://i.imgur.com/ZHpI4YV.png"
-            alt=""
-          ></img>
-          <span className="large">
+        <div className="project-5">
+          <a
+            className="chess-link"
+            href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
-              src="https://i.imgur.com/zj0eudJ.png"
+              className="chess-img"
+              src="https://i.imgur.com/ZHpI4YV.png"
               alt=""
-              className="large-img"
             ></img>
-          </span>
-          <h2 className="projectNum">Project 5</h2>
-          <h4 className="projectName">GIF Generator</h4>
+            <span className="large">
+              <img
+                src="https://i.imgur.com/QkpluYP.png"
+                alt=""
+                className="large-img"
+              ></img>
+            </span>
+          </a>
+
+          <h2 className="projectNum" data-msg="Project 5">
+            GIF Generator
+          </h2>
           <div>
             <a
               href="https://github.com/jykyle0226/GIF-Generator"
