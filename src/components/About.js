@@ -16,6 +16,11 @@ const About = () => {
           </h4>
         </div>
         <div>
+          <h4 className="intro">
+          As a recent graduate at General Assembly, I’m equipped with self-teaching ability and flexibility to an individual work setting and collaboration.  
+          </h4>
+        </div>
+        <div>
           <h4 className="passion">
             With 4 years of experience in audio engineering, I possess a strong
             foundation in problem solving skills and result-oriented work ethic.
