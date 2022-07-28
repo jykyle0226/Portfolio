@@ -62,7 +62,7 @@ const Projects = () => {
         <div className="project-2">
           <a
             className="chess-link"
-            href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+            href="https://caffenova.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >
