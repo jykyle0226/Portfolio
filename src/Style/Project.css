@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
 
 .ProjectPage {
   display: flex;
   flex-direction: column;
 }
 
-.data-picture{
+.data-picture {
   width: 200px;
   height: 200px;
 }
 
-.chess-img{
+.chess-img {
   width: 150px;
   height: 220px;
   margin: 40px;
@@ -19,14 +18,14 @@
   filter: drop-shadow(6px 4px 1px #575757);
 }
 
-.project-div{
+.project-div {
   display: flex;
   justify-self: center;
   align-items: center;
   flex-direction: row;
 }
 
-.project{
+.project {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,55 +33,59 @@
   margin: 150px;
 }
 
-.large{
+.large {
   position: absolute;
   left: -9999px;
 }
 
 .chess-link:hover .large {
-  left: 620px; 
+  left: 620px;
   top: 210px;
   border: solid black 1px;
 }
 
-.large-image{
+.large-image {
   width: 700px;
   height: 400px;
 }
 
-.project-h1{
-  font-family: 'PT Sans Narrow', sans-serif;
+.project-h1 {
+  font-family: "PT Sans Narrow", sans-serif;
 }
-.projectNum{
+.projectNum {
   font-size: 25px;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
-.large-img{
+.large-img {
   width: 700px;
   height: 350px;
   border-radius: 4px;
-  box-shadow: 1px 1px 3px 3px rgba(127, 127, 127, 0.15);;
+  box-shadow: 1px 1px 3px 3px rgba(127, 127, 127, 0.15);
 }
 
-
-.project-1, .project-2, .project-3, .project-4, .project-5{
+.project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5 {
   margin: 5px;
   width: 300px;
 }
 
-.github, .live{
+.github,
+.live {
   margin: 10px;
   width: 50px;
   height: 50px;
 }
 
-
 [data-msg] {
   position: relative;
 }
 
-[data-msg]:focus::before, [data-msg]:hover::before {
+[data-msg]:focus::before,
+[data-msg]:hover::before {
   content: attr(data-msg);
   position: absolute;
   width: 100%;
@@ -93,5 +96,5 @@
   left: 50%;
   top: -1rem;
   transform: translate(-50%, -100%);
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
 }

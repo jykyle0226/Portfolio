@@ -4,7 +4,7 @@ import "../Style/About.css";
 import About from "../components/About";
 import "../Style/About.css";
 import Navbar2 from "../components/NavBar2";
-import { Spring } from 'react-spring'
+import { Spring } from "react-spring";
 
 const AboutPage = (props) => {
   return (

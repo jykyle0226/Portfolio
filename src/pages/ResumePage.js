@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../Style/Navbar.css";
 import Navbar2 from "../components/NavBar2";
 import "../Style/Resume.css";
-import Resume from '../components/Resume'
+import Resume from "../components/Resume";
 
 const ResumePage = (props) => {
   return (

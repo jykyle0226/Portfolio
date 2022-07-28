@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
 
 .about-div {
   display: inline;
@@ -43,24 +43,24 @@
   flex-direction: column;
 }
 
-.hello-span{
-  font-family: 'PT Sans Narrow', sans-serif;
+.hello-span {
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 100px;
 }
-.name{
-  font-family: 'PT Sans Narrow', sans-serif;
+.name {
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 50px;
 }
 
-.About-div{
+.About-div {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
 
-.contact{
-  font-family: 'PT Sans Narrow', sans-serif;
+.contact {
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 20px;
   display: flex;
   justify-content: center;
@@ -68,17 +68,36 @@
 }
 
 .intro {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 22px;
 }
-.phone-div, .email-div{
+.phone-div,
+.email-div {
   display: flex;
   margin: 20px;
 }
 
-.phone, .email{
+.phone,
+.email {
   width: 40px;
   height: 40px;
   margin: 10px;
 }
 
+[data-msg] {
+  position: relative;
+}
+
+[data-msg]:focus::before,
+[data-msg]:hover::before {
+  content: attr(data-msg);
+  position: absolute;
+  width: 100%;
+  min-width: 200px;
+  padding: 1rem;
+  background-color: rgb(174, 174, 174);
+  opacity: 0.8;
+  left: 50%;
+  top: -1rem;
+  transform: translate(-50%, -100%);
+}

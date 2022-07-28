@@ -5,14 +5,14 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ResumePage from "./pages/ResumePage";
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet";
 
 function App() {
   useEffect(() => {
-    document.title = 'Min Yong Kim'
-  })
+    document.title = "Min Yong Kim";
+  });
 
-  const Title = 'Min Yong Kim'
+  const Title = "Min Yong Kim";
   return (
     <div className="App">
       <Helmet>
