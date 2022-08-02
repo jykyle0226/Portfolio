@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
 
 .ProjectPage {
   display: flex;
@@ -26,21 +28,48 @@
   padding: 20px;
 }
 
-.projectComp-div{
+.projectComp-div {
   border-left: solid black 1px;
-
 }
 
-.Project-div{
+.Project-div {
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
 
-.project-left{
+.project-left {
   font-size: 60px;
 }
 
-.p-div{
+.p-div {
   margin-top: 100px;
+  font-family: "Mukta", sans-serif;
+}
+
+.info,
+.project-name {
+  font-family: "Mukta", sans-serif;
+}
+.info {
+  font-size: 18px;
+  width: 700px;
+}
+
+.project-name {
+  font-size: 35px;
+}
+
+.project-ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.project-ul li:before {
+  content: "\2014";
+
+}
+
+.project-ul li{
+  margin: 10px;
 }

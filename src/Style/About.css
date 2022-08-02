@@ -11,6 +11,7 @@
 }
 
 #about-nav {
+  font-family: "Mukta", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,16 +19,19 @@
   flex-wrap: wrap;
   text-align: center;
   float: right;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
-.about-li,
-.about-li-a {
+.about-li {
   font-size: 25px;
   display: inline;
-  margin: 20px;
+  padding: 30px;
+}
+.about-li-a{
+  color: black;
   text-decoration: none;
 }
+
 .about-li,
 .about-li-a:visited {
   color: black;
@@ -44,11 +48,11 @@
 }
 
 .hello-span {
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Mukta", sans-serif;
   font-size: 100px;
 }
 .name {
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Mukta", sans-serif;
   font-size: 50px;
 }
 
@@ -60,7 +64,7 @@
 }
 
 .contact {
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Mukta", sans-serif;
   font-size: 20px;
   display: flex;
   justify-content: center;
@@ -68,8 +72,9 @@
 }
 
 .intro {
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 22px;
+  width: 1000px;
+  font-family: "Mukta", sans-serif;
+  font-size: 25px;
 }
 .phone-div,
 .email-div {

@@ -12,7 +12,7 @@ const About = () => {
               <span className="hello-span">Hello,</span>
             </motion.h1>
             <h1 className="name">
-              My name is <span>Min Yong Kim</span>
+              My name is <span>Min Yong Kim.</span>
             </h1>
             <h4 className="intro">
               I am a full-stack developer with focuses in JavaScript, React,

@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Spring } from "react-spring";
+import { motion } from "framer-motion";
 
 const Navbar2 = () => {
   return (
-    <div className="Navbar2">
-      <div className="about-div">
+    <motion.div className="Navbar2">
+      <motion.div className="about-div">
         <div className="About-banner">
           <Link to="/">
             <img
@@ -23,17 +23,17 @@ const Navbar2 = () => {
           <Link className="Link" to="/projects">
             <li className="about-li">Projects</li>
           </Link>
-          
+
           <li className="about-li">
-          <a
-            className="about-li-a"
-            href="https://drive.google.com/file/d/1uQNPtvr-pgzpJA_DsojDEW7eoK9vuK5N/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Resume
-          </a>
-        </li>
+            <a
+              className="about-li-a"
+              href="https://drive.google.com/file/d/1uQNPtvr-pgzpJA_DsojDEW7eoK9vuK5N/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
+          </li>
 
           <li className="about-li">
             <a
@@ -56,8 +56,8 @@ const Navbar2 = () => {
             </a>
           </li>
         </nav>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 

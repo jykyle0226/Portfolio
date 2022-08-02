@@ -4,26 +4,44 @@ import { motion } from "framer-motion";
 function Project3() {
   return (
     <motion.div
-    animate={{x: 200}}
-    transition={{ delay: 0.3}}
-    className="project">
+      animate={{ x: 200 }}
+      transition={{ delay: 0.3 }}
+      className="project"
+    >
       <div>
-      <div className="project-img-div">
-          <img className="project-img" src="https://i.imgur.com/84IDtHM.png" alt=""></img>
-        </div>
+        <motion.div
+          whileHover={{
+            scale: [1, 1.5],
+            rotate: [0, 360],
+          }}
+          className="project-img-div"
+        >
+          <img
+            className="project-img"
+            src="https://i.imgur.com/84IDtHM.png"
+            alt=""
+          ></img>
+        </motion.div>
       </div>
-        <div>
+      <div>
         <div className="name-div">
           <h2 className="project-name">BuckT</h2>
         </div>
         <div className="project-info-div">
           <div className="info">
-            <ul>
+            <ul className="project-ul">
               <li>
-                Utilized Mongoose/MongoDB, Express, React, and Node (MERN) to
-                develop web applicationy
+                Focused on React fundamentals such as useState & useEffect &
+                PropTypes to develop front-end elements
               </li>
-              <li>Implemented Spotify API to add artist search functionalit</li>
+              <li>
+                Worked in collaboration with three other developers and utilized
+                GitHub/Git Collaboration for version control
+              </li>
+              <li>
+                Took charge of back-end and used Mongoose to define schemas for
+                MongoDB collections
+              </li>
             </ul>
           </div>
         </div>
@@ -33,26 +51,27 @@ function Project3() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
+            <motion.img
+              whileHover={{ scale: 1.3 }}
               className="github"
               src="https://i.imgur.com/OekuFsO.png"
               alt=""
-            ></img>
+            ></motion.img>
           </a>
           <a
             href="https://iridescent-croquembouche-9e80f7.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <img
+            <motion.img
+              whileHover={{ scale: 1.3 }}
               className="live"
               src="https://i.imgur.com/cGHJKG5.png"
               alt=""
-            ></img>
+            ></motion.img>
           </a>
         </div>
-        </div>
-        
+      </div>
     </motion.div>
   );
 }
