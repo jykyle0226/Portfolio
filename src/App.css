@@ -1,10 +1,9 @@
 .App {
   text-align: center;
-  background-size: 1950px 1000px;
+  background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: url('https://i.imgur.com/2U2lLbu.jpg');
-  height: 1200px;
 }
 
 .App-logo {

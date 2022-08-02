@@ -6,6 +6,7 @@ import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ResumePage from "./pages/ResumePage";
 import { Helmet } from "react-helmet";
+import { AnimatePresence, motion } from "framer-motion";
 
 function App() {
   useEffect(() => {
@@ -18,18 +19,20 @@ function App() {
       <Helmet>
         <title>{Title}</title>
       </Helmet>
-      <Route exact path="/">
-        <HomePage />
-      </Route>
-      <Route exact path="/about">
-        <AboutPage />
-      </Route>
-      <Route exact path="/projects">
-        <ProjectsPage />
-      </Route>
-      <Route exact path="/resume">
-        <ResumePage />
-      </Route>
+      <AnimatePresence>
+        <Route exact path="/">
+          <HomePage />
+        </Route>
+        <Route exact path="/about">
+          <AboutPage />
+        </Route>
+        <Route exact path="/projects">
+          <ProjectsPage />
+        </Route>
+        <Route exact path="/resume">
+          <ResumePage />
+        </Route>
+      </AnimatePresence>
     </div>
   );
 }

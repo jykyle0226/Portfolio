@@ -1,17 +1,18 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Style/About.css";
 const About = () => {
   return (
-    <div className="hi">
+    <motion.div animate={{ y: 20, scale: 1 }} initial={{ scale: 0 }}>
       <div className="About-div">
         <div className="intro-div">
           <div>
-            <h1 className="name">
+            <motion.h1 whileHover={{ scale: 1.4 }} className="name">
               <span className="hello-span">Hello,</span>
-            </h1>
+            </motion.h1>
             <h1 className="name">
-              My name is <span data-msg="I go by Min!">Min Yong Kim</span>
+              My name is <span>Min Yong Kim</span>
             </h1>
             <h4 className="intro">
               I am a full-stack developer with focuses in JavaScript, React,
@@ -35,23 +36,25 @@ const About = () => {
       </div>
       <div className="contact">
         <div className="phone-div">
-          <img
+          <motion.img
+            whileHover={{ scale: 1.5 }}
             src="https://i.imgur.com/2rkG6JN.png"
             alt=""
             className="phone"
-          ></img>
+          ></motion.img>
           <h4 className="numb">(571)992-3010</h4>
         </div>
         <div className="email-div">
-          <img
+          <motion.img
+            whileHover={{ scale: 1.5 }}
             src="https://i.imgur.com/G2R0wIX.png"
             alt=""
             className="email"
-          ></img>
+          ></motion.img>
           <h4>min.y.kim0226@gmail.com</h4>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
