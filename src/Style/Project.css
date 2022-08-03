@@ -28,10 +28,6 @@
   padding: 20px;
 }
 
-.projectComp-div {
-  border-left: solid black 1px;
-}
-
 .Project-div {
   display: flex;
   justify-content: center;
@@ -93,7 +89,6 @@
     align-items: center;
     flex-direction: column;
     width: 200px;
-    border-left: none
   }
   .p-div{
     display: none;

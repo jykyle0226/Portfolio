@@ -5,15 +5,12 @@ import Project2 from "../Projects/Project2";
 import Project3 from "../Projects/Project3";
 import Project4 from "../Projects/Project4";
 import Project5 from "../Projects/Project5";
-import Project from "../Projects/Project";
+
 import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
     <div className="Project-div"> 
-      <div className="p-div">
-        <Project></Project>
-      </div>
       <div className="projectComp-div">
         <Project1 />
         <Project2 />
