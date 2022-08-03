@@ -11,7 +11,7 @@ function Project2() {
       <div>
         <motion.div
           whileHover={{
-            scale: [1, 1.5],
+            scale: [1.5]
 
           }}
           className="project-img-div"
