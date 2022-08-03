@@ -34,7 +34,7 @@ function Project1() {
                 Utilized Mongoose/MongoDB, Express, React, and Node (MERN) to
                 develop web applicationy
               </li>
-              <li>Implemented Spotify API to add artist search functionalit</li>
+              <li>Implemented Spotify API to add artist search functionality</li>
             </ul>
           </div>
         </div>

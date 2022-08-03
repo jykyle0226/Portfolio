@@ -19,7 +19,7 @@ const About = () => {
               Express, MongoDB, and Node.
             </h4>
           </div>
-          <div>
+          <div className="intro-div">
             <h4 className="intro">
               As a recent graduate from General Assembly, I am equipped with
               self-teaching ability and flexibility to an individual work

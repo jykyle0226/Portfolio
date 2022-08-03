@@ -32,7 +32,7 @@ function Project5() {
           <ul className="project-ul">
               <li>Single page web app implemented with third-party API</li>
               <li>Takes search requests and generates 3 gifs </li>
-              <li>Developed with JavaScript, Ajax, jQuery, HTML and CSSBuck</li>
+              <li>Developed with JavaScript, Ajax, jQuery, HTML and CSS</li>
             </ul>
           </div>
         </div>
