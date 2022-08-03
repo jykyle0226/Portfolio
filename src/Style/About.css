@@ -104,19 +104,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
-  
+
   #about-nav {
+    margin-top: -10px;
     font-family: "Mukta", sans-serif;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
+  
   .about-li {
     font-size: 25px;
+    padding: 0;
   }
   .about-li-a{
     color: black;
     text-decoration: none;
+  }
+  
+  .about-li,
+  .about-li-a:visited {
+    color: black;
   }
   .hello-span {
     font-family: "Mukta", sans-serif;

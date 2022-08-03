@@ -14,12 +14,13 @@ const About = () => {
             <h1 className="name">
               My name is <span>Min Yong Kim.</span>
             </h1>
-            <h4 className="intro">
+          
+          </div>
+          <div className="intro-div">
+          <h4 className="intro">
               I am a full-stack developer with focuses in JavaScript, React,
               Express, MongoDB, and Node.
             </h4>
-          </div>
-          <div className="intro-div">
             <h4 className="intro">
               As a recent graduate from General Assembly, I am equipped with
               self-teaching ability and flexibility to an individual work
