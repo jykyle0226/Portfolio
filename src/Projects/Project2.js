@@ -43,7 +43,7 @@ function Project2() {
         </div>
         <div className="icon-div">
           <a
-            href="https://github.com/jykyle0226/Audio-Engineer-Guide-Website-FrontEnd"
+            href="https://github.com/jykyle0226/CaffeNova"
             target="_blank"
             rel="noreferrer"
           >
@@ -55,7 +55,7 @@ function Project2() {
             ></motion.img>
           </a>
           <a
-            href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+            href="https://caffenova.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >

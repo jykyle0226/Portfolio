@@ -47,7 +47,7 @@ function Project3() {
         </div>
         <div className="icon-div">
           <a
-            href="https://github.com/jykyle0226/Audio-Engineer-Guide-Website-FrontEnd"
+            href="https://github.com/jykyle0226/buckT-backend"
             target="_blank"
             rel="noreferrer"
           >
@@ -59,7 +59,7 @@ function Project3() {
             ></motion.img>
           </a>
           <a
-            href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+            href="https://buck-it.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >

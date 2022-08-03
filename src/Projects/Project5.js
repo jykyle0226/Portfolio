@@ -38,7 +38,7 @@ function Project5() {
         </div>
         <div className="icon-div">
           <a
-            href="https://github.com/jykyle0226/Audio-Engineer-Guide-Website-FrontEnd"
+            href="https://github.com/jykyle0226/GIF-Generator"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,7 +50,7 @@ function Project5() {
             ></motion.img>
           </a>
           <a
-            href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+            href="https://main--astonishing-dieffenbachia-49841b.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >

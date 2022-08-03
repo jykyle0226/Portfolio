@@ -37,7 +37,7 @@ function Project4() {
         </div>
         <div className="icon-div">
           <a
-            href="https://github.com/jykyle0226/Audio-Engineer-Guide-Website-FrontEnd"
+            href="https://github.com/jykyle0226/My-Personal-Devo-Diary"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,7 +50,7 @@ function Project4() {
             ></motion.img>
           </a>
           <a
-            href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+            href="https://project2-minyong-kim.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >
