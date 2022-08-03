@@ -38,10 +38,6 @@
   font-size: 60px;
 }
 
-.p-div {
-  margin-top: 100px;
-  font-family: "Mukta", sans-serif;
-}
 
 .info,
 .project-name {
@@ -107,5 +103,9 @@
   }
   .project-ul{
     padding: 0px 0px 0px 0px;
+  }
+  .info {
+    font-size: 18px;
+    width: 400px;
   }
 }
