@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Project3() {
   return (
     <motion.div
-      animate={{ x: 200 }}
+      animate={{ x: 100 }}
       transition={{ delay: 0.3 }}
       className="project"
     >

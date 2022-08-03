@@ -115,9 +115,19 @@
     align-items: center;
     flex-direction: column;
   }
+
+  #li1{
+    margin: 100px;
+  }
+  #about-nav li{
+    margin: 10px;
+  }
+
+  
   
   .about-li {
     font-size: 25px;
+    display: flex;
     padding: 0;
   }
   .about-li-a{
@@ -139,19 +149,19 @@
   }
   
   .intro {
-    width: 200px;
+    width: 260px;
     font-family: "Mukta", sans-serif;
     font-size: 25px;
   }
   .phone-div,
 .email-div {
   display: flex;
-  margin: 5px;
+  margin: 1px;
 }
   .contact {
     display: flex;
     flex-direction: column;
-    margin: 5px;
+    margin: 10px;
   }
 
   .intro-div{

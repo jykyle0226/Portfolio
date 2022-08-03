@@ -73,3 +73,43 @@
 .project-ul li{
   margin: 10px;
 }
+
+@media only screen and (max-width: 500px){
+  .project-img {
+    width: 350px;
+    height: 200px;
+  }
+  .project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    padding: 20px;
+  }
+  .projectComp-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    border-left: none
+  }
+  .p-div{
+    display: none;
+  }
+  .Project-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .project {
+    padding: 0px;
+  }
+  .project-info-div, .project-ul, .name-div{
+    width: 400px;
+  }
+  .project-ul{
+    padding: 0px 0px 0px 0px;
+  }
+}
