@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Project2() {
   return (
     <motion.div
-      animate={{ x: 100 }}
+    animate={{ scale: [0.5, 1] }}
       transition={{ delay: 0.2 }}
       className="project"
     >
@@ -12,7 +12,7 @@ function Project2() {
         <motion.div
           whileHover={{
             scale: [1, 1.5],
-            rotate: [0, 360],
+
           }}
           className="project-img-div"
         >

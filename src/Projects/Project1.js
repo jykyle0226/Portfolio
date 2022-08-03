@@ -4,15 +4,14 @@ import { motion } from "framer-motion";
 function Project1() {
   return (
     <motion.div
-      animate={{ x: 100 }}
+    animate={{ scale: [0.5, 1] }}
       transition={{ delay: 0.1 }}
       className="project"
     >
       <div>
         <motion.div
           whileHover={{
-            scale: [1, 1.5],
-            rotate: [0, 360],
+            scale: [1, 1.5]
           }}
           className="project-img-div"
         >
