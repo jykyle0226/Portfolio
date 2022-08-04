@@ -11,10 +11,6 @@ const About = () => {
             <motion.h1 whileHover={{ scale: 1.4 }} className="name">
               <span className="hello-span">Hello,</span>
             </motion.h1>
-            <h1 className="name">
-              My name is <span>Min Yong Kim.</span>
-            </h1>
-          
           </div>
           <div className="intro-div">
           <h4 className="intro">
