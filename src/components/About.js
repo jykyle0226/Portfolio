@@ -14,13 +14,12 @@ const About = () => {
           </div>
           <div className="intro-div">
           <h4 className="intro">
-              I am a full-stack developer with focuses in JavaScript, React,
+              I am a full-stack developer with a focus in JavaScript, React,
               Express, MongoDB, and Node.
             </h4>
             <h4 className="intro">
               As a recent graduate from General Assembly, I am equipped with
-              self-teaching ability and flexibility to an individual work
-              setting and collaboration.
+              self-teaching abilities, and am flexible to work individually and collaboratively
             </h4>
           </div>
           <div>
