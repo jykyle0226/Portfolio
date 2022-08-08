@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 function Project3() {
   return (
     <motion.div
-    animate={{ scale: [0.5, 1] }}
+      animate={{ scale: [0.5, 1] }}
       transition={{ delay: 0.3 }}
       className="project"
     >
       <div>
         <motion.div
           whileHover={{
-            scale: 1.5
+            scale: 1.5,
           }}
           className="project-img-div"
         >
@@ -30,16 +30,15 @@ function Project3() {
           <div className="info">
             <ul className="project-ul">
               <li>
-                Focused on React fundamentals such as useState & useEffect &
-                PropTypes to develop front-end elements
+                Worked with three other team members utilizing GitHub/Git
+                Collaboration for version control.
               </li>
               <li>
-                Worked in collaboration with three other developers and utilized
-                GitHub/Git Collaboration for version control
+                Utilized Mongoose/MongoDB, Express, React, and Node (MERN) to
+                develop a web application where users can store bucket list data
               </li>
               <li>
-                Took charge of back-end and used Mongoose to define schemas for
-                MongoDB collections
+                Implemented full CRUD functionality as a back-end developer
               </li>
             </ul>
           </div>

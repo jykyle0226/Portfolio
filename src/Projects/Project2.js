@@ -4,15 +4,14 @@ import { motion } from "framer-motion";
 function Project2() {
   return (
     <motion.div
-    animate={{ scale: [0.5, 1] }}
+      animate={{ scale: [0.5, 1] }}
       transition={{ delay: 0.2 }}
       className="project"
     >
       <div>
         <motion.div
           whileHover={{
-            scale: 1.5
-
+            scale: 1.5,
           }}
           className="project-img-div"
         >
@@ -29,10 +28,11 @@ function Project2() {
         </div>
         <div className="project-info-div">
           <div className="info">
-          <ul className="project-ul">
+            <ul className="project-ul">
               <li>Full stack web application developed in Django</li>
               <li>
-                Used PostgreSQL to store and query user and cafe information
+                Used PostgreSQL to store and query user and cafe
+                information(MERN)
               </li>
               <li>
                 Implemented user authentication to enable log-in required

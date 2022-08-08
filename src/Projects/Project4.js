@@ -29,7 +29,7 @@ function Project4() {
         <div className="project-info-div">
           <div className="info">
           <ul className="project-ul">
-              <li>Full stack web app developed in Express.js and MongoDB</li>
+              <li>Full stack web app developed in JavaScript, Express.js and MongoDB</li>
               <li>Multi-page with full CRUD functionality </li>
             </ul>
           </div>

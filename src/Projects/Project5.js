@@ -29,7 +29,7 @@ function Project5() {
         <div className="project-info-div">
           <div className="info">
           <ul className="project-ul">
-              <li>Single page web app implemented with third-party API</li>
+              <li>Single page web application implemented with third-party API</li>
               <li>Takes search requests and generates 3 gifs </li>
               <li>Developed with JavaScript, Ajax, jQuery, HTML and CSS</li>
             </ul>

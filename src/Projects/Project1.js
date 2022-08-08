@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 function Project1() {
   return (
     <motion.div
-    animate={{ scale: [0.5, 1] }}
+      animate={{ scale: [0.5, 1] }}
       transition={{ delay: 0.1 }}
       className="project"
     >
       <div>
         <motion.div
           whileHover={{
-            scale: 1.5
+            scale: 1.5,
           }}
           className="project-img-div"
         >
@@ -30,10 +30,16 @@ function Project1() {
           <div className="info">
             <ul className="project-ul">
               <li>
-                Utilized Mongoose/MongoDB, Express, React, and Node (MERN) to
-                develop web applicationy
+                Developed a web application to provide my church members a
+                website to store feedback data and find the worship band
               </li>
-              <li>Implemented Spotify API to add artist search functionality</li>
+              <li>
+                Utilized Mongoose/MongoDB, Express, React, and Node (MERN)
+              </li>
+              <li>
+                Implemented Spotify API for users to find their worship band
+                information on Youtube
+              </li>
             </ul>
           </div>
         </div>
