@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <div className="Project-div"> 
       <div className="projectComp-div">
-        <Project1 />
+        {/* <Project1 /> */}
         <Project2 />
         <Project3 />
         <Project4 />
