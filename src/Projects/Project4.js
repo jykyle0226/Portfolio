@@ -24,13 +24,14 @@ function Project4() {
       </div>
       <div>
         <div className="name-div">
-          <h2 className="project-name">Devo and Diary</h2>
+          <h2 className="project-name">Devo and Diary <span className="project-span"> - Full Stack</span></h2>
         </div>
         <div className="project-info-div">
           <div className="info">
           <ul className="project-ul">
-              <li>Full stack web app developed in JavaScript, Express.js and MongoDB</li>
-              <li>Multi-page with full CRUD functionality </li>
+              <li>A personal blog website for me to store my diary and devotional note</li>
+              <li>Full stack web application developed in Express.js and MongoDB</li>
+              <li>Implemented full CRUD functionality</li>
             </ul>
           </div>
         </div>

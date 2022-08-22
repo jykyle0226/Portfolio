@@ -24,19 +24,22 @@ function Project2() {
       </div>
       <div>
         <div className="name-div">
-          <h2 className="project-name">CaffèNova</h2>
+          <h2 className="project-name">CaffèNova <span className="project-span"> - Full Stack</span></h2>
         </div>
         <div className="project-info-div">
           <div className="info">
             <ul className="project-ul">
+              <li>
+                Provide users a website to share their favorite cafe in NOVA
+                area
+              </li>
               <li>Full stack web application developed in Django</li>
               <li>
-                Used PostgreSQL to store and query user and cafe
-                information(MERN)
+                Used PostgreSQL to store and query user and cafe information
               </li>
               <li>
-                Implemented user authentication to enable log-in required
-                functionalities
+                Implemented user authentication to limit functionalities to
+                non-users
               </li>
             </ul>
           </div>

@@ -24,18 +24,18 @@ function Project3() {
       </div>
       <div>
         <div className="name-div">
-          <h2 className="project-name">BuckT</h2>
+          <h2 className="project-name">BuckT <span className="project-span"> - Back-End</span></h2>
         </div>
         <div className="project-info-div">
           <div className="info">
             <ul className="project-ul">
+              <li>A web application where users can store bucket list data</li>
               <li>
                 Worked with three other team members utilizing GitHub/Git
                 Collaboration for version control.
               </li>
               <li>
-                Utilized Mongoose/MongoDB, Express, React, and Node (MERN) to
-                develop a web application where users can store bucket list data
+                Utilized Mongoose/MongoDB, Express, React, and Node (MERN)
               </li>
               <li>
                 Implemented full CRUD functionality as a back-end developer

@@ -24,12 +24,12 @@ function Project5() {
       </div>
       <div>
         <div className="name-div">
-          <h2 className="project-name">GIF Generator</h2>
+          <h2 className="project-name">GIF Generator <span className="project-span"> - Front-End</span></h2>
         </div>
         <div className="project-info-div">
           <div className="info">
           <ul className="project-ul">
-              <li>Single page web application implemented with third-party API</li>
+              <li>A single-page web application integrated Giphy API</li>
               <li>Takes search requests and generates 3 gifs </li>
               <li>Developed with JavaScript, Ajax, jQuery, HTML and CSS</li>
             </ul>
