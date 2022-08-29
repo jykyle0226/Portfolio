@@ -24,7 +24,7 @@ function Project1() {
       </div>
       <div>
         <div className="name-div">
-          <h2 className="project-name">GCCK Audio Engineer Website</h2>
+          <h2 className="project-name">GCCK Audio Engineer Website <span className="project-span"> - Full Stack</span></h2>
         </div>
         <div className="project-info-div">
           <div className="info">
